@@ -1,0 +1,16 @@
+{
+  "name": "conparador-de-corridas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "banco": "node src/connection.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.18"
+  }
+}
